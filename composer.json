@@ -16,7 +16,7 @@
             "homepage": "https://lulublog.cn"
         }
     ],
-    "minimum-stability": "1.0.2",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
