@@ -1,0 +1,26 @@
+{
+    "name": "lulubin/php-pscws4",
+    "description": "拆词",
+    "keywords": [
+        "pscws4",
+        "extension",
+        "拆词"
+    ],
+    "homepage": "https://github.com/lulubin/php-pscws4",
+    "type": "拆词-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lulubin",
+            "email": "452936616@qq.com",
+            "homepage": "https://lulublog.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "lulubin\\hello\\": ""
+        }
+    }
+}
