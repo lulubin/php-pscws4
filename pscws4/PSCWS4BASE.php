@@ -1,4 +1,7 @@
 <?php
+namespace lulubin\pscws4\pscws4;
+
+use lulubin\pscws4\pscws4\XDB_R;
 /* ----------------------------------------------------------------------- *\
    PHP��������ķִʵ��İ�(PSCWS v4.0) - �ִʺ���������
    -----------------------------------------------------------------------
@@ -91,7 +94,7 @@ define ('PSCWS4_MAX_EWLEN',		16);
 define ('PSCWS4_MAX_ZLEN',		128);
 
 /** �������� */
-class PSCWS4
+class PSCWS4BASE
 {	
 	var $_xd;		// xdb dict handler
 	var $_rs;		// ruleset resource
