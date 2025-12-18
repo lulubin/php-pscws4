@@ -19,7 +19,7 @@ class pscws4
         $pcws->set_charset('utf-8');
         $pcws->set_dict($currentDir.'/dict.utf8.xdb');
         $pcws->set_rule($currentDir.'/pscws4/etc/rules.ini');
-        $pcws->send_text("印花冰丝凉");
+        $pcws->send_text($text);
         $article = [];
         while ($some = $pcws->get_result())
         {
